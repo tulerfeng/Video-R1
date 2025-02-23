@@ -52,7 +52,7 @@ We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct
 
 The video files are in the zip file and the train/test splits are in the jsonl file.
 
-[🤗 Video-R1 Dataset: DVD-counting](https://huggingface.co/datasets/Video-R1/DVD-counting/tree/main)
+[🤗 Video-R1 Dataset: DVD-counting](https://huggingface.co/datasets/Video-R1/DVD-counting)
 
 This dataset is extracted from "DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue"
 
