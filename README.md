@@ -70,6 +70,10 @@ Reasoning Samples:
 
 <img src="\images\sample.png" alt="sample" style="zoom:70%;" />
 
+<p style="text-align: center;">
+  <img src="\images\sample.png" alt="sample" style="zoom:70%;" />
+</p>
+
 
 
 ## Set up
