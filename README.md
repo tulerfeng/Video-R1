@@ -66,18 +66,16 @@ We can observe that RL training results in an accuracy boost of around 10% on DV
 
 Reasoning Samples:
 
-<img src="\images\CATER_new_003595.gif" alt="CATER_new_003595" style="zoom:150%;" />
 
 <div align="center">
-  <img src="\images\CATER_new_003595.gif" alt="Descriptive alt text" width="50%">
-</div>
-
-<div style="text-align: center;">
-  <img src="\images\CATER_new_003595.gif" alt="sample" style="zoom:70%;" />
+  <img src="\images\CATER_new_003595.gif" alt="Descriptive alt text" width="35%">
 </div>
 
 
-<img src="\images\sample.png" alt="sample" style="zoom:70%;" />
+<div align="center">
+  <img src="\images\sample.png" alt="Descriptive alt text" width="70%">
+</div>
+
 
 
 
