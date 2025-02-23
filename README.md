@@ -73,12 +73,12 @@ Reasoning Samples:
 
 
 <div align="center">
-  <img src="\images\CATER_new_003595.gif" alt="Descriptive alt text" width="35%">
+  <img src="\images\CATER_new_003595.gif" alt="Descriptive alt text" width="40%">
 </div>
 
 
 <div align="center">
-  <img src="\images\sample.png" alt="Descriptive alt text" width="70%">
+  <img src="\images\sample.png" alt="Descriptive alt text" width="75%">
 </div>
 
 
