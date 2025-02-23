@@ -1,8 +1,6 @@
 # Video-R1: Towards Super Reasoning Ability in Video Understanding 
 
-This work aims to integrate deep thinking capabilities into video understanding tasks through the R1 paradigm. 
-
-For the first time, we achieved a simultaneous increase in both accuracy and thinking length in video understanding domain.
+This work aims to integrate deep thinking capabilities into video understanding tasks through the R1 paradigm. For the first time, we achieved a simultaneous increase in both accuracy and thinking length in video understanding domain.
 
 This is a preliminary repo, and we will continue to develop our Video-R1 model in the future.
 
