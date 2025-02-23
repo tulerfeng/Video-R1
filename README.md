@@ -38,7 +38,7 @@ In some cases, the model even skips the thinking process and outputs sentences l
 
 ### *Weak Reasoning Data Maybe Not Beneficial for Reinforcing Deep Thinking* 
 
-We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) on a subset of nextqa dataset with little reasoning. We can notice that there is almost no increase in thinking length. This indicates that reinforcing deep thinking may require strong reasoning data.
+We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) on a subset of NExT-QA dataset with little reasoning. We can notice that there is almost no increase in thinking length. This indicates that reinforcing deep thinking may require strong reasoning data.
 
 
 
