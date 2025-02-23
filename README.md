@@ -68,9 +68,9 @@ Reasoning Samples:
 
 <img src="\images\CATER_new_003595.gif" alt="CATER_new_003595" style="zoom:150%;" />
 
-<p style="text-align: center;">
-  <img src="\images\CATER_new_003595.gif" alt="sample" style="zoom:70%;" />
-</p>
+<div align="center">
+  <img src="\images\CATER_new_003595.gif" alt="Descriptive alt text" width="50%">
+</div>
 
 <div style="text-align: center;">
   <img src="\images\CATER_new_003595.gif" alt="sample" style="zoom:70%;" />
