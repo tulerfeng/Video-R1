@@ -60,13 +60,13 @@ This dataset is extracted from "DVD: A Diagnostic Dataset for Multi-step Reasoni
 
 We can observe that RL training results in an accuracy boost of around 10% on DVD-counting-test
 
+
+<div align="center">
+
 | Dataset           | Qwen2-VL-7B-Instruct | Video-R1-7B |
 | ----------------- | -------------------- | ----------- |
 | DVD-counting-test | 25.0                 | 34.5        |
-
-| Column 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Column 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      |
-|:--------:| -------------:|
-| centered 文本居中 | right-aligned 文本居右 |
+</div>
 
 
 Reasoning Samples:
