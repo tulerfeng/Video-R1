@@ -17,7 +17,7 @@ This is a preliminary repo, and we will continue to develop our Video-R1 model i
 
 In many previous multimodal R1 repositories, the thinking length either showed little to no increase (e.g., [Open R1 Video](https://github.com/Wang-Xiaodong1899/Open-R1-Video?tab=readme-ov-file) ) or even decreased (e.g., [R1-V](https://github.com/Deep-Agent/R1-V) ). In this work, we demonstrate that this issue can be addressed by using an appropriate base model and a strong reasoning dataset.
 
-We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) using GRPO with accuracy and format rewards on the DVD-counting dataset. Training the 7B model for 900 steps can be completed in approximately 10 hours using 4 x A100 (80G) GPUs. The training curve is as follows:
+We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) using GRPO with accuracy and format rewards on the [DVD-counting](https://huggingface.co/datasets/Video-R1/DVD-counting) dataset. Training the 7B model for 900 steps can be completed in approximately 10 hours using 4 x A100 (80G) GPUs. The training curve is as follows:
 
 <img src="\images\7B_curve.png" alt="7B_curve" style="zoom:70%;" />
 
