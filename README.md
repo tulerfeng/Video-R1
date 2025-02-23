@@ -68,11 +68,14 @@ Reasoning Samples:
 
 <img src="\images\CATER_new_003595.gif" alt="CATER_new_003595" style="zoom:150%;" />
 
+<p style="text-align: center;">
+  <img src="\images\CATER_new_003595.gif" alt="sample" style="zoom:70%;" />
+</p>
+
+
 <img src="\images\sample.png" alt="sample" style="zoom:70%;" />
 
-<p style="text-align: center;">
-  <img src="\images\sample.png" alt="sample" style="zoom:70%;" />
-</p>
+
 
 
 
