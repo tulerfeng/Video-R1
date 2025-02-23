@@ -367,16 +367,12 @@ class Qwen2VLGRPOTrainer(Trainer):
             images = [x["image"] for x in inputs]
         elif "video_filename" in inputs[0]:
             video_inputs = []
-            for (inp_idx, inp) in enumerate(inputs):
-                new_inp = inp.copy()
+            for (cur_idx, cur_input) in enumerate(inputs):
+                copy_input = cur_input.copy()
                 
-
+                copy_input['prompt'][0]['content'][0]['video'] = os.getcwd() + "/data" + inputs[cur_idx]["video_filename"][1:]
                 
-                new_inp['prompt'][0]['content'][0]['video'] = os.getcwd() + "/data" + inputs[inp_idx]["video_filename"][1:]
-                
-                
-                
-                video_inputs.append(process_vision_info(new_inp["prompt"])[1])
+                video_inputs.append(process_vision_info(copy_input["prompt"])[1])
                 
                 # import pdb
                 # pdb.set_trace()
@@ -481,10 +477,6 @@ class Qwen2VLGRPOTrainer(Trainer):
             prompt_inputs["image_grid_thw"] = prompt_inputs["image_grid_thw"].repeat(len(prompt_completion_ids), 1)
         # import pdb; pdb.set_trace()
         
-        # XXX if input video
-        # image_grid_thw is from image_process_qwen2_vl
-        # https://github.com/huggingface/transformers/blob/dd16acb8a3e93b643aa374c9fb80749f5235c1a6/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L414
-        # automatic process
         if "video_filename" in inputs[0]:
             prompt_inputs["pixel_values_videos"] = prompt_inputs["pixel_values_videos"].repeat(len(prompt_completion_ids), 1)
             prompt_inputs["video_grid_thw"] = prompt_inputs["video_grid_thw"].repeat(len(prompt_completion_ids), 1)
