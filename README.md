@@ -27,7 +27,7 @@ We train [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct
 
 We train [Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct)  using the same setting on the DVD-counting dataset. In contrast, this model shows a decrease in thinking length. 
 
-In some cases, the model even skips the thinking process and outputs sentences like this: '<think>\n</think>\n<answer>2</answer>'.
+In some cases, the model even skips the thinking process and outputs sentences like this: `<think>\n</think>\n<answer>2</answer>`.
 
 
 
